@@ -9,6 +9,7 @@ After creating a list of items, the user can see the weight distribution for eac
 
 # Technologies used
 - Python/Flask
+- SQLite3
 - Javascript
 - HTML
 - CSS
