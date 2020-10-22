@@ -9,10 +9,13 @@ After creating a list of items, the user can see the weight distribution for eac
 
 # Technologies used
 - Python/Flask
-- SQLite3
+- SQLite
 - Javascript
 - HTML
 - CSS
+
+# Demo
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6SNhnDq3gXg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Login
 ![Login](https://i.ibb.co/GTzjzqc/login.jpg)
