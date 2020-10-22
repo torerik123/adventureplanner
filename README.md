@@ -33,6 +33,7 @@ Clicking the title or description enables the user to edit.
 ![New item](https://i.ibb.co/vHJ2Wmq/newitem2.jpg)
 
 # Sample list
+The total weight for each category will display at the bottom of the list. At the bottom of the page it will display the total weight for all items.
 After making a list, the user can delete items by checking the box for the item to delete. The user also has the option to select all.
 ![Sample list](https://i.ibb.co/CVvWV6Z/samplelist.jpg)
 
