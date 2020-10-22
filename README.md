@@ -33,7 +33,7 @@ Clicking the title or description enables the user to edit.
 ![New item](https://i.ibb.co/vHJ2Wmq/newitem2.jpg)
 
 # Sample list
-After making a list, the user can delete items by checking the box for the item to delete. The user also has the option to select all checkboxes by selecting the top checkbox.
+After making a list, the user can delete items by checking the box for the item to delete. The user also has the option to select all.
 ![Sample list](https://i.ibb.co/CVvWV6Z/samplelist.jpg)
 
 # Explore
