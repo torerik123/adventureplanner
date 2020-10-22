@@ -38,4 +38,5 @@ After making a list, the user can delete items by checking the box for the item 
 ![Sample list](https://i.ibb.co/CVvWV6Z/samplelist.jpg)
 
 # Explore
+After creating a list, clicking share will create a public version of that list and display it on the "Explore" page.
 ![Explore](https://i.ibb.co/jTWCBND/explore.jpg)
