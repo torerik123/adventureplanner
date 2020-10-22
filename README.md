@@ -8,9 +8,12 @@ After creating a list of items, the user can see the weight distribution for eac
 - In addition to creating personal gear lists, users can also share and see other users lists on the the "Explore" page .
 
 # Technologies used
+Backend: 
 - Python/Flask
 - SQLite
-- Javascript
+
+Front-end:
+- Javascript (Form validation, Navbar, "select all" feature)
 - HTML
 - CSS
 
@@ -26,9 +29,11 @@ alt="Adventure Planner" width="240" height="180" border="10" /></a>
 ![Dashboard](https://i.ibb.co/17fg9CZ/dashboard.jpg)
 
 # New item
+Clicking the title or description enables the user to edit.
 ![New item](https://i.ibb.co/vHJ2Wmq/newitem2.jpg)
 
 # Sample list
+After making a list, the user can delete items by checking the box for the item to delete. The user also has the option to select all checkboxes by selecting the top checkbox.
 ![Sample list](https://i.ibb.co/CVvWV6Z/samplelist.jpg)
 
 # Explore
