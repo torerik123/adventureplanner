@@ -15,7 +15,9 @@ After creating a list of items, the user can see the weight distribution for eac
 - CSS
 
 # Demo
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6SNhnDq3gXg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=6SNhnDq3gXg
+" target="_blank"><img src="http://img.youtube.com/vi/6SNhnDq3gXg/0.jpg" 
+alt="Adventure Planner" width="240" height="180" border="10" /></a>
 
 # Login
 ![Login](https://i.ibb.co/GTzjzqc/login.jpg)
