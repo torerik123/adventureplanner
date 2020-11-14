@@ -1,0 +1,6 @@
+cs50
+gunicorn
+flask
+flask_session
+requests
+psycopg2
