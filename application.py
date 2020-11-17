@@ -110,22 +110,25 @@ def register():
             return render_template("register.html")
 
         # Look for username in database
+
+        ### DEBUG
         check = db.execute("SELECT * FROM users WHERE username =:username",username=username)
+        
+        if check:
+            
+            flash("Username already in use")
+            return render_template("register.html")
 
-        # If username does not exist already, add new user to database
-        if not check:
-
+        else:
+            
             hash_pwd = generate_password_hash(password, method='pbkdf2:sha256', salt_length=8)
-            db.execute("INSERT INTO users (username, hash) VALUES(?,?)",username,hash_pwd)
+            db.execute("INSERT INTO users (username, hash) VALUES(?,?)", username,hash_pwd)
+                
+                #"INSERT INTO users (username, hash) VALUES",username,hash_pwd)
 
             #Return to login page
             flash('You were successfully registered!')
             return render_template("login.html")
-
-        else:
-
-            flash("Username already in use")
-            return render_template("register.html")
 
 
 @app.route("/index/<string:project_id>", methods=["GET", "POST"])
