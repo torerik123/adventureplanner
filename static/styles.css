@@ -536,10 +536,10 @@ li > .navlink {
     text-decoration: none;
 }
 
-.share, {
+.share {
     display:flex;
     justify-content:center;
-    padding:50px;
+    padding:25px;
 }
 
 .explore-title {
