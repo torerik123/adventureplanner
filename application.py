@@ -110,8 +110,6 @@ def register():
             return render_template("register.html")
 
         # Look for username in database
-
-        ### DEBUG
         check = db.execute("SELECT * FROM users WHERE username =:username",username=username)
         
         if check:
@@ -123,9 +121,7 @@ def register():
             
             hash_pwd = generate_password_hash(password, method='pbkdf2:sha256', salt_length=8)
             db.execute("INSERT INTO users (username, hash) VALUES(?,?)", username,hash_pwd)
-                
-                #"INSERT INTO users (username, hash) VALUES",username,hash_pwd)
-
+    
             #Return to login page
             flash('You were successfully registered!')
             return render_template("login.html")
@@ -271,7 +267,7 @@ def dashboard():
     if request.method == "GET":
 
         projects = db.execute("SELECT * FROM projects WHERE user_id=:user_id", user_id=session["user_id"])
-
+       
         return render_template("dashboard.html", projects=projects)
 
     else:
