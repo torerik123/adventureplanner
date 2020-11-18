@@ -27,10 +27,10 @@ def after_request(response):
 
 
 # Configure session to use filesystem (instead of signed cookies)
-app.config["SESSION_FILE_DIR"] = mkdtemp()
-app.config["SESSION_PERMANENT"] = False
-app.config["SESSION_TYPE"] = "filesystem"  
-Session(app)
+#app.config["SESSION_FILE_DIR"] = mkdtemp()
+#app.config["SESSION_PERMANENT"] = False
+#app.config["SESSION_TYPE"] = "filesystem"  
+#Session(app)
 
 # Configure CS50 Library to use Postgres database
 db = SQL("postgres://wocjtrmwcfrwai:fb2d70589ffd96cd9bd4473bf9590ca26798da3769586512a49a41c3b1129df1@ec2-54-228-250-82.eu-west-1.compute.amazonaws.com:5432/da5k6k2pjfrag7")
