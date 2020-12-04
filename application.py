@@ -29,9 +29,9 @@ app.config["SESSION_FILE_DIR"] = mkdtemp()
 app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
 app.config["SESSION_TYPE"] = "filesystem"  
+app.config['SECRET_KEY'] = "e5ac358c-f0bf-11e5-9e39-d3b532c10a28"
 Session(app)
 
-app.secret_key = "b'e\xada\xd0\x86\xa8\x7f\x8e\x8ey;\x8dN\xfeB\xf8\xa1\x9apT\xd3Qsy'"
 
 # Configure CS50 Library to use Postgres database
 db = SQL("postgres://wocjtrmwcfrwai:fb2d70589ffd96cd9bd4473bf9590ca26798da3769586512a49a41c3b1129df1@ec2-54-228-250-82.eu-west-1.compute.amazonaws.com:5432/da5k6k2pjfrag7")
