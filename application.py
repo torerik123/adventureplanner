@@ -9,7 +9,6 @@ from werkzeug.security import check_password_hash, generate_password_hash
 from helpers import login_required
 from flask import url_for
 from os import environ
-import redis
 
 # Configure application
 app = Flask(__name__)
