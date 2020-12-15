@@ -59,7 +59,6 @@ main .form-control {
 .banner-title {
     display:flex;
     justify-content:center;
-    margin-top:100px;
     color:white;
 }
 
@@ -73,6 +72,7 @@ main .form-control {
 .block-banner {
     height:100vh;
     display:flex;
+    flex-direction: column;
     justify-content:center;
     background-attachment: fixed;
     background-image: url("/static/images/img_7439.jpg");
@@ -439,7 +439,7 @@ header {
     float: left;
     margin: 16px 46px;
     color: #000;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 2px;
 }
 
@@ -622,6 +622,36 @@ li > .navlink {
       width:90%;
   }
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .logo {
+        font-size: 30px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .logo {
+        font-size: 40px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .logo {
+        font-size: 40px;
+    }
+}
+    
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+ }
+
+
+
 
 .pagetitle:hover,
 .edit-project-name-button:hover,
