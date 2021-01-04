@@ -10,7 +10,7 @@ After creating a list of items, the user can see the weight distribution for eac
 # Technologies used
 Backend: 
 - Python/Flask
-- SQLite
+- Postgres
 
 Front-end:
 - Javascript (Form validation, Navbar, "select all" feature)
