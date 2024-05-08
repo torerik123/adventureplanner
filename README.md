@@ -13,7 +13,7 @@ Backend:
 - Postgres
 
 Front-end:
-- Javascript (Form validation, Navbar, "select all" feature)
+- Javascript
 - HTML
 - CSS
 
